@@ -1,0 +1,33 @@
+PODS:
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - PubNub (4.1.2):
+    - CocoaLumberjack (= 2.2.0)
+    - PubNub/Core (= 4.1.2)
+  - PubNub/Core (4.1.2):
+    - CocoaLumberjack (= 2.2.0)
+
+DEPENDENCIES:
+  - PubNub (from `https://github.com/pubnub/objective-c`, branch `tvOS`)
+
+EXTERNAL SOURCES:
+  PubNub:
+    :branch: tvOS
+    :git: https://github.com/pubnub/objective-c
+
+CHECKOUT OPTIONS:
+  PubNub:
+    :commit: b6e785582c236dbb9bc02bc2617eff7c9adc4e7a
+    :git: https://github.com/pubnub/objective-c
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  PubNub: cab001ae2c20090fd50a02b94112ffc520d14de4
+
+COCOAPODS: 0.39.0
